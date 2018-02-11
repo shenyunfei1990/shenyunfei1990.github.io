@@ -27,6 +27,10 @@
       'right': -slidebar.width()
     })
   });
+  function syfclick() {
+      $("#syf1").load("")
+  }
+
   /*回到顶部按钮点击事件*/
   backTop.on('click', function () {
     $('html, body').animate({
